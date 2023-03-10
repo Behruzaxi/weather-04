@@ -42,7 +42,7 @@ export default function App() {
             <h2 className='degre'>{Math.round(data?.main?.temp)+"°"}</h2>
             <ul className='box'>
               <li className='list-box'>Max: {Math.round(data?.main?.temp_max)+"°"}</li>
-              <li className='yoki'>|</li>
+              <li className='yoki'></li>
               <li className='list-box'>Min: {Math.round(data?.main?.temp_min)+"°"}</li>
             </ul>
           </div>
