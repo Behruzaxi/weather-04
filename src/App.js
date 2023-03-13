@@ -27,7 +27,7 @@ export default function App() {
       <Row className='justify-content-center mt-5'>
         <Col xs={10} lg={4}>
           <div className='srchbox'>
-            <input type="text" placeholder='search location' value={value}  onChange={(e) => setValue(e.target.value)}/>
+            <input type="text" className='iner' placeholder='search location' value={value}  onChange={(e) => setValue(e.target.value)}/>
             <button className='btn-search' onClick={getDataWeather}>Search</button>
           </div>
         </Col>
