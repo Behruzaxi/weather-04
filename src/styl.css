@@ -99,8 +99,8 @@ input::placeholder{
         -webkit-backdrop-filter: blur(4px);
         backdrop-filter: blur(4px);
         background: rgba(255, 255, 255, 0.4);
-        width: 275  px;
-        padding-left: 10px;
+        width: 275px;
+        padding-left: 100px;
         margin-top: 200px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -108,90 +108,18 @@ input::placeholder{
         outline: none;
         border-radius: 6px;
     } 
+    .btn-search {
+        color: white;
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+        background: rgba(255, 255, 255, 0.4);
+        width: 245px;
+        padding-bottom: 10px;
+        border-radius: 6px;
+        border: none;
+        margin-left: 25px;
+        margin-top: 2px;
+    }
     
 }
 
-
-
-@media (max-width: 472px){
-input {
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
-    background: rgba(255, 255, 255, 0.4);
-    width: 240px;
-    padding-left: 10px;
-    margin-top: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-}
-}
-
-
-@media (max-width: 449px){
-    input {
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-        background: rgba(255, 255, 255, 0.4);
-        width: 225px;
-        padding-left: 10px;
-        margin-top: 200px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: none;
-        outline: none;
-        border-radius: 6px;
-    }
-    }
-
-
-@media (max-width: 431px){
-    input {
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-        background: rgba(255, 255, 255, 0.4);
-        width: 205px;
-        padding-left: 10px;
-        margin-top: 200px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: none;
-        outline: none;
-        border-radius: 6px;
-    }
-    }
-
-
-@media (max-width: 431px){
-    input {
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-        background: rgba(255, 255, 255, 0.4);
-        width: 165px;
-        padding-left: 10px;
-        margin-top: 200px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: none;
-        outline: none;
-        border-radius: 6px;
-    }
-    }
-
-    @media (max-width: 360px){
-        input {
-            -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
-            background: rgba(255, 255, 255, 0.4);
-            width: 135px;
-            padding-left: 10px;
-            margin-top: 200px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            border: none;
-            outline: none;
-            border-radius: 6px;
-        }
-        }
